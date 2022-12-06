@@ -17,7 +17,7 @@ var server = http.createServer(function(request,response){
         job: "엔지니어",
         age: 25
     }
-0
+
     let array = [minseok, junhyeok]
 
     let body = {
