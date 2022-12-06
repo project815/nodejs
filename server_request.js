@@ -1,3 +1,4 @@
+//모듈
 var http = require('http');
 var fs = require('fs');
 var url = require('url');
@@ -45,11 +46,16 @@ var app = http.createServer(function(request,response){
       </body>
       </html>
       `;
-
-
-
       response.end(template);
     })
     
 });
 app.listen(3000);
+
+
+/*
+app.post(`/letlogin`, (req, res) => {
+    console.log(req.body.username);
+});
+
+*/
